@@ -1,0 +1,8 @@
+      7 
+      0      -1       4      0.8666667 -1 Node0
+      1       0       1      0.0000000 1 sepal_width
+      2       0       3      0.4666667 -1 Node2
+      3       2       1      0.0000000 0 sepal_length
+      4       2       2      0.2333333 -1 Node4
+      5       4       1      0.0000000 3 petal_width
+      6       4       1      0.0000000 2 petal_length

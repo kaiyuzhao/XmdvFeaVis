@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManualClustCtrlWin</class>
+ <widget class="QWidget" name="ManualClustCtrlWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ManualClustControl</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="clstMtrcGrpBox">
+     <property name="title">
+      <string>Grouping Metrics</string>
+     </property>
+     <layout class="QHBoxLayout" name="clstMtrcGrpHLayout">
+      <item>
+       <widget class="QRadioButton" name="rbnSpearman">
+        <property name="text">
+         <string>Correlation</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbnStatistcs">
+        <property name="text">
+         <string>K-th Central Moment</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbnCrossEntropy">
+        <property name="text">
+         <string>Cross Entropy</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="rnkMtrcGrpBox">
+     <property name="title">
+      <string>Ranking Metrics</string>
+     </property>
+     <layout class="QHBoxLayout" name="rnkMtrcGrpHLayout">
+      <item>
+       <widget class="QRadioButton" name="rbnCentroid">
+        <property name="text">
+         <string>Center Based</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbnOutliers">
+        <property name="text">
+         <string>Outlying</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbnEntropy">
+        <property name="text">
+         <string>Entropy</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="btnBoxHLayout">
+     <item>
+      <widget class="QPushButton" name="defaultBtn">
+       <property name="toolTip">
+        <string>Default parameter settings for clustering data dimensions</string>
+       </property>
+       <property name="text">
+        <string>Default</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="clustOptnBtn">
+       <property name="toolTip">
+        <string>User customizing parameters for clustering</string>
+       </property>
+       <property name="text">
+        <string>Adjust Clusters...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="applyBtn">
+       <property name="toolTip">
+        <string>Apply current selected dimensions for data view</string>
+       </property>
+       <property name="text">
+        <string>Apply</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
