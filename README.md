@@ -1,9 +1,9 @@
 ### FeatureXmdv
-Interactive feature exploration based on xmdvtool
+Interactive feature exploration based on [XmdvTool](http://davis.wpi.edu/xmdv/)
 
 ### Project Description
 
-A visual analytic workflow is implemented based on [XmdvTool](http://davis.wpi.edu/xmdv/) for modeling the feature space of input data to identify a subset of interesting features for further tasks. The project integrates both clustering model and user-driven selections into an interactive feature analytics pipeline where the user interact with a cluster model space of all the features. The model of all the features are created based on the redundancy relationship iof all the features which s established by using pairwise metrics such as information entropy and correlation coefficient.
+A visual analytic toolkit is implemented for modeling the feature space of input data to identify a subset of interesting features for further tasks. The project integrates both clustering model and user-driven selections into an interactive feature analytics pipeline where the user interact with a cluster model space of all the features. The model of all the features are created based on the redundancy relationship iof all the features which s established by using pairwise metrics such as information entropy and correlation coefficient.
 
 #### Dependencies
 
